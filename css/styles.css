@@ -112,10 +112,14 @@ body {
 
 /* Agencja */
 
+.hero-bg {
+  background-color: var(--gunmetal);
+}
+
 .hero {
   background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background.png);
-  background-color: var(--gunmetal);
+
   text-align: center;
   padding: 200px 0;
   margin: 0 auto;
@@ -154,10 +158,6 @@ body {
 
 /* Main */
 
-.main-info {
-  padding-top: 94px;
-}
-
 .main-info-header {
   color: var(--dark-grey);
   font-size: 14px;
@@ -178,16 +178,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.main-info-icon {
-  display: block;
-  margin: auto;
-}
-
 .icon-box {
   background-color: var(--complementary);
   padding: 25px 102px;
   border-radius: 4px;
-  margin-right: 30px;
+}
+
+.lorem-flex {
+  display: flex;
+  gap: 30px;
 }
 
 /* Mission */
